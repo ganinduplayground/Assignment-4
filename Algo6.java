@@ -28,6 +28,7 @@ public class Algo6 {
             // System.out.println(i);
             preIndex=postIndex +1;
             postIndex = i;
+            words[count]="\b";
             for (int j = preIndex; j < postIndex; j++) {
                 System.out.println(chars[j]);
                 words[count]+=chars[j];
